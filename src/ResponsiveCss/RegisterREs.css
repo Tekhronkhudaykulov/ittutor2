@@ -1,0 +1,66 @@
+@media only screen and (max-width: 1004px) {
+    .registratsiya {
+        width: 100%;
+    }
+
+    .item-registratsiya {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .register-inputs {
+        width: 90%;
+    }
+
+    .passwordrecovery {
+        width: 70%;
+    }
+
+    .bottom-man-emotion {
+        width: 100%;
+        display: none;
+    }
+
+
+}
+
+@media only screen and (max-width:560px) {
+    .registratsiya {
+        width: 100%;
+    }
+
+    .item-registratsiya {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .register-inputs {
+        width: 100%;
+    }
+
+    .passwordrecovery {
+        width: 90%;
+    }
+
+    .bottom-man-emotion {
+        width: 100%;
+        display: none;
+        border: 1px solid black;
+    }
+
+    .top-recovery p {
+        font-size: 1.5rem;
+    }
+
+    .passwordrecovery span {
+        width: 90%;
+    }
+    .passwordrecovery button{
+        width: 90%;
+    }
+
+}

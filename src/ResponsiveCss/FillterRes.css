@@ -1,0 +1,159 @@
+@media only screen and (max-width: 1004px) {
+    .fillter {
+        width: 100%;
+        position: relative;
+    }
+
+    .item-fillter {
+        width: 100%;
+        padding: 0px 10px;
+    }
+
+    .fillter-saidbar {
+        display: none;
+    }
+
+    .fillter-saidbar-modal {
+        position: fixed;
+        top: 0;
+        z-index: 1111111111;
+        background-color: #000000b3;
+        margin: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 30px 0px;
+    }
+
+    .fillter-saidbar-modal .select-fillter {
+        width: 60%;
+        height: 90%;
+        position: relative;
+        border-top: 1px solid rgb(200, 0, 0);
+    }
+
+    .filter-close {
+        position: absolute;
+        font-size: 4rem;
+        color: #fff;
+        top: -10px;
+        right: -140px;
+        cursor: pointer;
+        z-index: 111111111111111;
+    }
+
+    .top-fillter-item {
+        width: 100%;
+        width: 60%;
+        color: #fff;
+    }
+
+    .bottom-saidbar-location {
+        width: 60%;
+    }
+
+    .main-fillter-all-sections {
+        width: 100%;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .ittesxnology {
+        gap: 40px;
+        justify-content: center;
+        grid-template-columns: 47% 47%;
+    }
+
+
+    .search-in-fillter {
+        position: relative;
+        height: 70px;
+        display: flex;
+        align-items: center;
+    }
+
+    .fillter-in-size-and-rating {
+        position: absolute;
+        right: 0;
+        display: flex;
+        height: 70px;
+        align-items: center;
+        width: 100px;
+        justify-content: center;
+    }
+
+    .fillter-in-size-and-rating i {
+        font-size: 2rem;
+        color: gray;
+        margin-top: -5px;
+    }
+
+
+    .title-fillter {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        margin: 30px 0px;
+        height: auto;
+    }
+
+    .title-fillter h3 {
+        font-size: 1.3rem;
+    }
+
+    .title-fillter h3 {
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width:560px) {
+
+
+
+    .ittesxnology {
+        gap: 40px;
+        justify-content: center;
+        grid-template-columns: 100%;
+    }
+
+    .title-fillter {
+        width: 100%;
+    }
+
+    .title-fillter h3 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+
+    .fillter-saidbar-modal .select-fillter {
+        width: 90%;
+        margin-top: 0;
+        background-color: #fff;
+        height: 100%;
+        top: 0;
+        overflow-x: scroll;
+        position: relative;
+        border-top: 1px solid rgb(200, 0, 0);
+    }
+
+    .bottom-saidbar-location {
+        display: none;
+    }
+    .saidbar-bottom-search{
+        width: 100%;
+        
+    }
+    .saidbar-bottom-search button{
+        height: 50px;
+    }
+
+
+
+}

@@ -1,0 +1,138 @@
+@media only screen and (max-width:560px) {
+
+    .teacher {
+        width: 100%;
+        position: relative;
+    }
+
+    .item-teacher {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 70px;
+    }
+
+    .left-teacher {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .title-teacher h3 {
+        font-size: 3rem;
+        font-weight: 400;
+    }
+
+    .item-teacher span {
+        font-size: .9rem;
+        line-height: 20px;
+    }
+
+    .teacher-button {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .teacher-button button {
+        width: 80%;
+    }
+
+    .bottom-desc-information h3 {
+        font-size: 1rem;
+    }
+
+
+
+    .right-teacher {
+        width: 100%;
+    }
+
+    .right-teacher .top-teacher-list {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .item-teacher-list {
+        width: 100%;
+    }
+
+    .item-teacher h3 {
+        font-size: 1rem;
+    }
+
+    .bottom-teacher-information {
+        display: none;
+    }
+
+
+
+    .bottom-teacher-information-res {
+        position: absolute;
+        width: 60%;
+        background-color: #fff;
+        bottom: -100px;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 0px;
+        box-shadow: 0px 0px 9px rgba(87, 87, 87, 0.144);
+    }
+
+
+    .top-information-teacher {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+
+
+
+
+
+
+    /* Students */
+
+    .Students {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .item-students {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .students-title {
+        width: 100%;
+        gap: 20px;
+    }
+
+    .students-title h3 {
+        font-size: 1.8rem;
+    }
+
+    .students-title span {
+        font-size: .9rem;
+        line-height: 20px;
+    }
+
+    .our-students-information {
+        width: 100%;
+        margin-top: 0;
+        padding: 0;
+    }
+
+    .item-scroll {
+        display: grid;
+        grid-template-columns: 43% 45% 43% 43%;
+    }
+
+
+
+
+}

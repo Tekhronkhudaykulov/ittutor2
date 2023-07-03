@@ -1,0 +1,166 @@
+@media only screen and (max-width: 1004px) {
+    .week-table {
+        width: 100%;
+        overflow-x: scroll;
+    }
+
+    .border-container-table {
+        width: 140%;
+    }
+}
+
+@media only screen and (max-width:560px) {
+    .buttons-room {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: self-start;
+        gap: 10px;
+    }
+
+    .buttons-room button {
+        width: 50%;
+
+    }
+
+    .education-and-experience {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .education {
+        width: 90%;
+    }
+
+    .education .title-education {
+        width: 100%;
+    }
+
+    .education .title-education h3 {
+        font-size: 1rem;
+    }
+
+    .education .title-education span p {
+        font-size: .7rem;
+    }
+
+    .education img {
+        display: none;
+    }
+
+    .experience {
+        width: 100%;
+    }
+
+    .experience .item-experience {
+        width: 100%;
+    }
+
+    .title-experience {
+        width: 100%;
+    }
+
+    .experience .item-experience .title-experience h3 {
+        font-size: 1rem;
+    }
+
+    .item-experience .title-experience span p {
+        font-size: .7rem;
+    }
+
+    .sertificats {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 90%;
+    }
+
+    .offline-teacher-place {
+        width: 90%;
+    }
+
+    .offline-teacher-place .title-offline-teach h3 {
+        font-size: 1rem;
+    }
+
+    .offline-teacher-place .title-offline-teach span {
+        font-size: .7rem;
+    }
+
+    .scroll-table {
+        width: 90%;
+        overflow: scroll;
+    }
+
+    .table {
+        width: 160%;
+        overflow: scroll;
+    }
+
+    .table div p {
+        font-size: .7rem;
+    }
+
+
+
+    /* weekbusydays */
+    .weekbusydays {
+        width: 100%;
+    }
+
+    .weekbusydays .title-week-busy-days {
+        width: 100%;
+    }
+
+    .weekbusydays .title-week-busy-days h3 {
+        font-size: 1rem;
+    }
+
+    .item-week-busy-days {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+
+    .week-table {
+        width: 100%;
+    }
+
+    .border-container-table {
+        width: 400%;
+    }
+
+    .feacdbackteacher {
+        width: 100%;
+        display: flex;
+        justify-content: start;
+    }
+
+    .item-feadback {
+        width: 90%;
+    }
+
+    .title-feadback {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+
+    .title-feadback h3 {
+        font-size: 1rem;
+        padding: 0 20px;
+    }
+
+    .bottom-button-feadback {
+        width: 100%;
+    }
+
+    .bottom-button-feadback button {
+        width: 40%;
+        font-size: .8rem;
+        height: 40px;
+    }
+
+}

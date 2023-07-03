@@ -1,0 +1,241 @@
+@media only screen and (max-width: 1004px) {
+    .learingcenterregister {
+        width: 95%;
+    }
+
+    .learingcenterregister span label {
+        font-size: 1rem;
+    }
+
+    .filesertificate {
+        width: 30%;
+        height: 200px;
+        font-size: .6rem;
+    }
+
+    .main-information-in-center {
+        display: grid;
+        grid-template-columns: 48% 48%;
+    }
+
+    .lessons-and-price {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 48% 48%;
+    }
+
+    .imgs-edit-center {
+        width: 100%;
+        display: flex;
+        justify-content: start;
+    }
+
+    .imgs-edit-center img {
+        width: 48%;
+    }
+
+    .vd-edit {
+        width: 100%;
+    }
+
+    .vd-edit div {
+        width: 100%;
+    }
+
+    .vd-edit div img {
+        width: 99%;
+    }
+
+
+}
+
+@media only screen and (max-width:560px) {
+
+    .learingcenterregister {
+        width: 93%;
+        margin-left: 20px;
+    }
+
+    .item-learingcenterregister {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 100%;
+    }
+
+
+    .item-learingcenterregister .profil-img-center {
+        /* height: 200px; */
+        width: 50%;
+    }
+
+    .main-information-in-center {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 100%;
+    }
+
+
+    .learingcenter-information-middle-box {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 100%;
+    }
+
+
+    .learingcenter-information-middle-box .learinginformation-txt {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 100%;
+
+    }
+
+    .learingcenter-information-middle-box .learinginformation-txt .aboutcenter {
+        width: 100%;
+    }
+
+    .learingcenter-information-middle-box .learinginformation-txt .aboutcenter textarea {
+        width: 100%;
+    }
+
+    .lessons-and-price {
+        width: 100%;
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 20px;
+    }
+
+    .lessons-and-price .xandplus {
+        margin-top: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+        color: #fff;
+        border-radius: 15px;
+        width: 60px;
+        background-color: #504368;
+        aspect-ratio: 1/1;
+    }
+
+    /* .sertificate-and-photogalery */
+    .item-learingcenterregister .sertificate-and-photogalery {
+        width: 100%;
+    }
+
+    .item-learingcenterregister .sertificate-and-photogalery span div {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 100%;
+    }
+
+    .sertificate-and-photogalery img {
+        width: 100%;
+    }
+
+    .sertificate-and-photogalery .filesertificate {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .learingcenterbutton {
+        width: 100%;
+        display: flex;
+        justify-content: end;
+    }
+
+    .learingcenterbutton button {
+        width: 50%;
+    }
+
+
+    .carousel {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 47% 47%;
+        gap: 10px;
+        justify-content: center;
+    }
+
+    .carousel .card-carousel {
+        width: 100%;
+        border: 1pxx solid black;
+    }
+
+    .carousel .card-carousel:nth-child(5) {
+        display: none;
+    }
+
+    .carousel .card-carousel img {
+        width: 100%;
+    }
+
+    .zayafka-cards {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 95%;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .zayafka-cards .left-card-zayafka {
+        width: 100%;
+        height: 150px;
+    }
+
+    .zayafka-cards .left-card-zayafka .zayafka-button {
+        width: 100%;
+    }
+
+    .zayafka-button button {
+        width: 70%;
+        font-size: .6rem;
+        height: 35px;
+    }
+
+
+    .main-profil .reviews-section {
+        width: 100%;
+        padding: 10px 5px;
+    }
+
+    .main-profil .reviews-section .reviews-card-box {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 100%;
+    }
+
+    .reviews-card-text {
+        font-size: .8rem;
+    }
+
+
+
+
+
+
+    .item-galery .galery {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 10px;
+        /* border: 1px solid black; */
+    }
+
+    .galery img {
+        width: 100%;
+    }
+
+    .video {
+        width: 100%;
+    }
+
+    .video .item-video .title-video h3 {
+        font-size: 1rem;
+    }
+
+    .video .video-cards img {
+        width: 100%;
+        height: 200px;
+    }
+}

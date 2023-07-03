@@ -1,0 +1,266 @@
+@media only screen and (max-width: 1004px) {
+    .main-news {
+        width: 100%;
+    }
+
+    .all-news-main {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        gap: 25px;
+    }
+
+    .news-card-title {
+        width: 100%;
+        height: 100%;
+    }
+
+    .news-card {
+        height: 400px;
+    }
+
+    /* comment  */
+
+    .comment {
+        width: 100%;
+    }
+
+    .item-comment {
+        width: 90%;
+    }
+
+    .main-comment {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+
+
+
+    /* commit  */
+    .Students {
+        width: 100%;
+        height: 800px;
+        margin-top: 80px;
+    }
+
+    .Students .item-students {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .students-title {
+        width: 100%;
+    }
+
+    .students-title h3 {
+        font-size: 3rem;
+    }
+
+    .students-title span {
+        font-size: 1.4rem;
+    }
+
+    .our-students-information {
+        width: 100%;
+        height: 400px;
+    }
+
+    .item-scroll {
+        width: 400%;
+    }
+
+    .item-scroll .students-card {
+        width: 100%;
+        height: 400px;
+    }
+
+
+
+    /* one news  */
+    .onenews {
+        width: 100%;
+        position: relative;
+        height: 120vh;
+    }
+
+    .item-onenews {
+        width: 95%;
+    }
+
+    .main-onenews {
+        width: 100%;
+    }
+
+    .main-onenews .top-onenews-img {
+        width: 100%;
+    }
+
+    .top-onenews-img img {
+        width: 100%;
+        object-fit: cover;
+        border-radius: 20px;
+    }
+
+}
+
+
+
+
+@media only screen and (max-width:560px) {
+    .main-news {
+        width: 100%;
+    }
+
+    .all-news-main {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 100%;
+    }
+
+
+    .news {
+        width: 100%;
+        height: auto;
+    }
+
+    .item-news {
+        width: 90%;
+    }
+
+    .news-title {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .left-title {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .right-title {
+        margin-bottom: -20px;
+    }
+
+
+    .left-title h3 {
+        font-size: 2rem;
+        width: 100%;
+    }
+
+    .left-title span {
+        line-height: normal;
+        font-size: .8rem;
+    }
+
+
+    .news-cards {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 100%;
+        justify-content: center;
+    }
+
+
+
+
+    /* comment */
+    .comment {
+        width: 100%;
+    }
+
+    .item-comment {
+        width: 90%;
+    }
+
+    .main-comment {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 100%;
+    }
+
+    .commentpost {
+        width: 100%;
+    }
+
+    .main-post {
+        width: 100%;
+    }
+
+    .desc-comment h3 {
+        font-size: 1.1rem;
+    }
+
+    .desc-comment p {
+        font-size: .9rem;
+    }
+
+
+    .right-comment span {
+        font-size: .6rem;
+    }
+
+
+    .main-post textarea {
+        width: 100%;
+    }
+
+    .item-teacher-list {
+        width: 100%;
+    }
+
+
+    /* one news  */
+    .onenews {
+        width: 100%;
+        position: relative;
+        height: 120vh;
+    }
+
+    .item-onenews {
+        width: 95%;
+    }
+
+    .main-onenews {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .date {
+        display: flex;
+    }
+
+    .left-title-one-news h3 {
+        font-size: 1rem;
+        width: 60%;
+    }
+
+    .bottom-onenews-desc {
+        width: 100%;
+    }
+
+    .bottom-onenews-desc p {
+        font-size: .6rem;
+    }
+
+    .main-onenews .top-onenews-img {
+        width: 100%;
+        height: 50vh;
+    }
+
+    .top-onenews-img img {
+        width: 100%;
+        height: 90%;
+        object-fit: cover;
+        border-radius: 20px;
+    }
+
+
+
+
+}

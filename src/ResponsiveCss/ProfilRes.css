@@ -1,0 +1,417 @@
+@media only screen and (max-width: 1004px) {
+    .profil {
+        width: 100%;
+    }
+
+    .item-profil {
+        width: 100%;
+        display: flex;
+        justify-content: end;
+    }
+
+    .saidbar-profil {
+        width: 100%;
+        height: 100vh;
+        z-index: 1111111111;
+        margin: 0;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        top: 200px;
+        position: fixed;
+        left: -95%;
+        transition: .5s;
+
+    }
+
+    .saidbar-profil:hover {
+        left: 0;
+        transition: .3s;
+    }
+
+    .saidbar-profil:hover ul {
+        box-shadow: 0px 0px 20px 2000px rgba(90, 90, 90, 0.7);
+        transition: .3s;
+    }
+
+    .saidbar-profil ul {
+        height: 40%;
+        padding: 0px 70px;
+    }
+
+    .saidbar-profil ul li {
+        font-size: .8rem;
+        padding: 0;
+    }
+
+    .main-profil {
+        width: 90%;
+    }
+
+    .edit {
+        width: 100%;
+        margin-left: -20px;
+        margin-bottom: 0px;
+    }
+
+    .middle-edit {
+        width: 100%;
+    }
+
+    .item-middle-edit {
+        width: 100%;
+    }
+
+    .item-profil-edit div {
+        width: 100%;
+    }
+
+
+    .bottom-button-edit {
+        width: 100%;
+    }
+
+    .bottom-button-edit button {
+        width: 40%;
+    }
+
+    /* chat  */
+
+}
+
+
+@media only screen and (max-width:560px) {
+    .profil {
+        margin: 40px 0px 0px 0px;
+        width: 100%;
+        position: relative;
+    }
+
+
+    .item-profil {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .saidbar-profil {
+        width: 100%;
+        height: 100vh;
+        z-index: 1111111111;
+        margin: 0;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        top: 200px;
+        position: fixed;
+        left: -90%;
+        transition: .5s;
+
+    }
+
+    .saidbar-profil:hover {
+        left: 0;
+        transition: .3s;
+    }
+
+    .saidbar-profil:hover ul {
+        box-shadow: 0px 0px 20px 800px rgba(71, 70, 70, 0.7);
+        transition: .3s;
+    }
+
+    .saidbar-profil ul {
+        display: flex;
+        align-items: center;
+        height: 50%;
+        margin-left: 20px;
+        width: 90%;
+        flex-direction: column;
+        gap: 20px;
+        background-color: #fff;
+        box-shadow: 0px 0px 10px rgba(112, 112, 112, 0.19);
+        border-radius: 20px;
+    }
+
+    .saidbar-profil ul li {
+        font-size: 1rem;
+    }
+
+    .main-profil {
+        width: 100%;
+        padding: 20px;
+        height: auto;
+    }
+
+    .edit {
+        height: auto;
+        margin-bottom: 400px;    }
+
+    .top-edit {
+        width: 100%;
+    }
+
+    .top-edit .ava-edit {
+        width: 45%;
+    }
+
+    .ava-edit img {
+        width: 100%;
+    }
+
+    .middle-edit {
+        width: 100%;
+    }
+
+    .middle-edit div div {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .middle-edit div div span {
+        width: 100%;
+    }
+
+    .middle-edit div div span label {
+        font-size: .8rem;
+    }
+
+    .middle-edit div div span input {
+        width: 100%;
+        height: 50px;
+    }
+
+    .bottom-button-edit {
+        width: 100%;
+    }
+
+    .bottom-button-edit button {
+        width: 50%;
+        margin-top: 20px;
+        height: 50px;
+    }
+
+    /* chat  */
+    .chat-pole {
+        width: 100%;
+    }
+
+    .top-chat {
+        width: 100%;
+    }
+
+    .top-chat h3 {
+        font-size: 1.3rem;
+    }
+
+    .item-main-chat {
+        width: 100%;
+    }
+
+    .chat-middle {
+        width: 100%;
+        margin: 0;
+        padding: 0px 10px;
+    }
+
+    .chat-middle ul {
+        padding: 0;
+        width: 100%;
+    }
+
+    .chat-middle ul li {
+        width: 70%;
+    }
+
+
+
+
+
+    .carousel {
+        width: 100%;
+        display: flex;
+        position: relative;
+    }
+
+    .carousel .card-carousel {
+        padding: 0;
+        width: 20%;
+        background-color: inherit;
+        border-radius: 0;
+    }
+
+    .desc-carousel {
+        display: none;
+    }
+
+    .carousel button {
+        display: none;
+    }
+
+
+    /* balance */
+    .balance-container-main {
+        width: 100%;
+    }
+
+    .balance-container-main .top-balance h3 {
+        font-size: 2rem;
+    }
+
+    .middle-balance {
+        width: 100%;
+        padding: 0;
+        padding: 10px 10px;
+        height: auto;
+    }
+
+    .card-busness {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .card-busness img {
+        width: 25%;
+        padding: 5px;
+    }
+
+    .bottom-balance {
+        width: 100%;
+        padding: 10px 30px;
+    }
+
+    .bottom-balance .title-bottom-balance {
+        width: 100%;
+
+    }
+
+    .bottom-balance .title-bottom-balance h3 {
+        font-size: 2rem;
+    }
+
+    .bottom-balance .information-buisness-card {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .information-buisness-card div {
+        width: 100%;
+    }
+
+    .information-buisness-card div input {
+        width: 100%;
+        height: 55px;
+    }
+
+    .bottom-button-balance {
+        width: 100%;
+    }
+
+    .bottom-button-balance button {
+        width: 45%;
+        height: 50px;
+    }
+
+
+    /* platniye-servises-main-container */
+    .main-profil .platniye-servises-main-container {
+        width: 100%;
+        padding: 0;
+        align-items: center;
+    }
+
+    .main-servises-cards .servises-card {
+        position: relative;
+        width: 100%;
+        margin: 0;
+        height: auto;
+
+    }
+
+    .title-platiye-servises {
+        padding-left: 20px;
+    }
+
+
+    .top-cards-servises p {
+        font-size: .7rem;
+    }
+
+    .servises-card .top-cards-servises button {
+        bottom: 10px;
+        height: 35px;
+        margin-top: 10000px;
+    }
+
+
+    /* myotzif-main */
+    .main-profil .myotzif-main {
+        width: 100%;
+        padding: 10px 7px;
+    }
+
+    .title-otzif {
+        width: 100%;
+    }
+
+    .title-otzif h3 {
+        font-size: 1.1rem;
+    }
+
+
+    .myotzif-main .otzif-cards {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 100%;
+        padding: 0;
+        /* border: 1px solid black; */
+    }
+
+
+
+
+    /* .transactions-main-container */
+    .main-profil .transaksiya-main {
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+        padding: 0;
+    }
+
+    .transaksiya-main .title-transaksiya h3 {
+        padding-left: 10px;
+        font-size: 1.4rem;
+    }
+
+    .transaksiya-main .transactions-main-container {
+        width: 100%;
+        margin: 0;
+        height: 70px;
+        padding: 0px 20px;
+    }
+
+    .transaksiya-main .transactions-main-container div span {
+        font-size: .6rem;
+
+    }
+
+    /* .pictures */
+    .pictures {
+        width: 100%;
+    }
+
+    .cards-pictures {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+
+}

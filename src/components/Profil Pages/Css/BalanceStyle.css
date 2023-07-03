@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.balance-main {
+    width: 100%;
+    height: 1300px;
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+}
+
+.balance-container {
+    width: 1440px;
+    max-width: 1440px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.balance-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 145px;
+}
+
+.all-balance-div {
+    width: 1000px;
+    height: 150px;
+    background-color: #fff;
+    padding: 0 60px;
+}
+
+.all-balance-div h1 {
+    color: #47406A;
+    font-size: 26px;
+    font-weight: 500;
+    margin-top: 36px;
+}
+
+.all-balance-div p {
+    font-size: 18px;
+    color: #47406A;
+    font-weight: 300;
+    margin-top: 25px;
+}
+
+.balance-pay-type {
+    width: 1000px;
+    height: 320px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    margin-top: 35px;
+    padding: 0 60px;
+}
+
+.balance-pay-type h1 {
+    font-size: 25px;
+    font-weight: 500;
+    color: #47406A;
+    margin-top: 45px;
+}
+
+.pay-system-div {
+    display: flex;
+    gap: 22px;
+}
+
+.pay-system-div div {
+    width: 180px;
+    height: 160px;
+    background-color: #f8f8f8;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.balance-pay-data {
+    width: 1000px;
+    height: 320px;
+    background-color: #fff;
+    margin-top: 23px;
+    padding: 0 60px;
+}
+
+.balance-pay-data h1 {
+    color: #47406A;
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 50px;
+}
+
+.pay-card-info-div {
+    display: flex;
+    gap: 44px;
+    margin-top: 49px;
+}
+
+.pay-card-info-div div p {
+    color: #47406A;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.pay-card-info-div div input {
+    width: 400px;
+    height: 80px;
+    background-color: #efefef;
+    border-radius: 20px;
+    border: transparent;
+    outline: transparent;
+    margin-top: 20px;
+    color: #47406A;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 0 30px;
+}
+
+.balance-pay-button {
+    width: 270px;
+    height: 80px;
+    border-radius: 45px;
+    background-color: #fff;
+    color: #593E69;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: auto;
+    border: transparent;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+
+
+
+/* main-balance style  */
+
+
+.balance-container-main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.balance-container-main .top-balance {
+    width: 100%;
+    height: 160px;
+    display: flex;
+    background-color: #fff;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 40px 40px;
+
+}
+
+.balance-container-main .top-balance h3 {
+    font-size: 2rem;
+    font-weight: 400;
+    color: #47406A;
+}
+
+/* middle-balance */
+.middle-balance {
+    width: 100%;
+    height: 300px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 40px 0px 10px 40px;
+}
+
+.middle-balance .card-busness {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.middle-balance h3 {
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #47406A;
+}
+
+.card-busness img {
+    padding: 20px;
+    background-color: #efefef;
+    width: 140px;
+    border-radius: 20px;
+}
+
+/* bottom-balance */
+.bottom-balance {
+    width: 100%;
+    height: 330px;
+    padding: 10px 40px;
+    background-color: #fff;
+}
+
+.title-bottom-balance {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.title-bottom-balance h3 {
+    font-weight: 400;
+    font-size: 2rem;
+    color: #47406A;
+}
+
+.bottom-balance .information-buisness-card {
+    display: flex;
+    width: 100%;
+    /* border: 1px solid black; */
+    height: 160px;
+    align-items: center;
+    gap: 20px;
+}
+
+.information-buisness-card div {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 60%;
+    gap: 15px;
+}
+
+.information-buisness-card div input {
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: none;
+    background-color: #efefef;
+    padding-left: 20px;
+    border-radius: 15px;
+}
+
+.bottom-button-balance {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.bottom-button-balance button {
+    width: 22%;
+    height: 65%;
+    border: none;
+    border-radius: 35px;
+    color: #fff;
+    cursor: pointer;
+    background-color: #47406A;
+}

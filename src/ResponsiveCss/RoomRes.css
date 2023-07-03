@@ -1,0 +1,324 @@
+@media only screen and (max-width: 1004px) {
+
+    .proviteroom {
+        width: 100%;
+    }
+
+    .item-room {
+        width: 100%;
+        position: relative;
+    }
+
+    .room-saidbar {
+        position: fixed;
+        left: -160px;
+        z-index: 111111;
+        cursor: pointer;
+        transition: .4s;
+        height: 50vh;
+
+    }
+
+    .room-saidbar .saidbar-list {
+        height: 100%;
+    }
+
+    .room-saidbar:hover {
+        left: 0;
+        width: 100%;
+        transition: .4s;
+    }
+
+    .room-saidbar .saidbar-list:hover {
+        box-shadow: 0px 0px 10px 1000px rgba(0, 0, 0, 0.59);
+        transition: .5s;
+
+    }
+
+    .main-room-information {
+        width: 90%;
+        margin-left: 40px;
+    }
+
+    .name-and-rating-room h3 {
+        font-size: 1.5rem;
+    }
+
+    .buttons-room {
+        width: 100%;
+    }
+
+    .buttons-room button {
+        width: 45%;
+        font-size: .8rem;
+    }
+
+    .getstudy {
+        top: 30px;
+    }
+
+    /* title-desc-servises */
+    .title-desc-servises {
+        width: 90%;
+    }
+
+    .title-desc-servises h3 {
+        font-size: 1.4rem;
+    }
+
+    .title-desc-servises p {
+        font-size: .8rem;
+    }
+
+    .title-subject {
+        width: 90%;
+    }
+
+    .title-subject h3 {
+        font-size: 1.4rem;
+    }
+
+    .table p {
+        font-size: .7rem;
+    }
+
+    .desc-carousel {
+        display: none;
+    }
+
+    /* photo-galery */
+    .photo-galery {
+        width: 100%;
+        /* border: 1px solid black; */
+    }
+
+    .item-galery {
+        width: 95%;
+    }
+
+    .galery {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 30% 30% 30%;
+        /* border: 1px solid black; */
+        gap: 20px;
+        justify-content: start;
+    }
+
+    .galery img {
+        width: 100%;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 560px) {
+
+    .proviteroom {
+        width: 100%;
+    }
+
+    .item-room {
+        width: 100%;
+        position: relative;
+    }
+
+    .room-saidbar {
+        position: fixed;
+        left: -95%;
+        width: 100%;
+        z-index: 1111111;
+        cursor: pointer;
+        transition: .4s;
+        height: 50vh;
+
+    }
+
+
+    .room-saidbar .saidbar-list {
+        height: 100%;
+    }
+
+    .room-saidbar:hover {
+        left: 0;
+        width: 100%;
+        transition: .4s;
+    }
+
+    .room-saidbar .saidbar-list:hover {
+        box-shadow: 0px 0px 10px 1000px rgba(0, 0, 0, 0.59);
+        transition: .5s;
+
+    }
+
+    .main-room-information {
+        width: 100%;
+        /* border: 1px solid black; */
+        padding: 0;
+        /* margin-left: 40px; */
+    }
+
+
+    .top-room-information {
+        width: 100%;
+        position: relative;
+        display: flex;
+        gap: 0;
+
+        flex-direction: column;
+    }
+
+    .top-room-information .roomava img {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .desc-information-room {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .name-and-rating-room h3 {
+        font-size: 1rem;
+    }
+
+    .buttons-room {
+        width: 100%;
+    }
+
+    .buttons-room button {
+        width: 65%;
+        font-size: .8rem;
+    }
+
+    .getstudy {
+        top: 0px;
+        width: 70px;
+        right: 50px;
+    }
+
+
+
+    /* title-desc-servises */
+    .servisesdesc {
+        width: 100%;
+        padding: 0;
+        display: flex;
+        justify-content: start;
+    }
+
+    .title-desc-servises {
+        width: 90%;
+    }
+
+    .title-desc-servises h3 {
+        font-size: 1rem;
+    }
+
+    .title-desc-servises p {
+        font-size: .7rem;
+        line-height: normal;
+    }
+
+
+    .subjectandtuition {
+        width: 100%;
+        display: flex;
+        justify-content: start;
+        padding: 0;
+    }
+
+    .item-subjectandtuintion {
+        width: 100%;
+    }
+
+    .title-subject {
+        width: 100%;
+    }
+
+    .title-subject h3 {
+        font-size: 1rem;
+    }
+
+    .table {
+        width: 95%;
+    }
+
+    .table p {
+        font-size: .4rem;
+    }
+
+    .desc-carousel {
+        display: none;
+    }
+
+    .all-tuition p,
+    .all-tuition i {
+        font-size: .8rem;
+    }
+
+    /* .experience */
+    .education-and-experience {
+        width: 100%;
+        padding: 0;
+    }
+
+    .experience {
+        width: 100%;
+        padding: 0;
+    }
+
+    .item-experience {
+        width: 100%;
+        padding: 0;
+    }
+
+    .sertificats {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 45% 45%;
+    }
+
+    .sertificats img {
+        width: 100%;
+    }
+
+    /* photo-galery */
+    .photo-galery {
+        width: 100%;
+        padding: 0;
+        display: flex;
+        justify-content: start;
+    }
+
+    .item-galery {
+        width: 95%;
+    }
+
+    .galery {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 48% 48%;
+        /* border: 1px solid black; */
+        gap: 10px;
+        justify-content: start;
+    }
+
+    .galery img {
+        width: 100%;
+    }
+
+    .video {
+        width: 100%;
+        padding: 0;
+        display: flex;
+        justify-content: start;
+    }
+
+    .item-video {
+        width: 95%;
+    }
+}

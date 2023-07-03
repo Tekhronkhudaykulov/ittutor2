@@ -1,0 +1,482 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.profil-page-main {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+
+}
+
+.profile-page-container {
+  max-width: 1440px;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile-menu-section {
+  height: max-content;
+}
+
+.profile-page-title {
+  font-size: 18px;
+  font-weight: 300;
+  color: #fff;
+  opacity: 0.5;
+}
+
+.profile-menu-div {
+  width: 350px;
+  height: 465px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin-top: 122px;
+  background-color: #fff;
+
+}
+
+.profile-menu-div ul {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin-left: 52px;
+}
+
+.profile-menu-div ul li {
+  font-size: 20px;
+  font-weight: 300px;
+  color: RGBA(71, 64, 106, 0.4);
+  cursor: pointer;
+  transition: ease-in-out 0.25s;
+}
+
+.profile-menu-div ul li:hover {
+  color: #593e69;
+}
+
+.profile-edit-section {
+  margin-left: 50px;
+}
+
+.profile-avatar-div {
+  width: 291px;
+  height: 291px;
+  border-radius: 70px;
+  margin-top: 134px;
+}
+
+.profile-avatar-div img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 70px;
+}
+
+.profile-avatar-edit {
+  position: relative;
+  bottom: 70px;
+  left: 231px;
+  width: 83px;
+  height: 83px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.profile-avatar-edit-icon {
+  font-size: 50px;
+  color: #593e69;
+}
+
+.profile-edits-container {
+  width: 900px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.profile-fname-lname-edit {
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile-fname-lname-edit div {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-fname-lname-edit div input {
+  width: 400px;
+  height: 80px;
+  margin-top: 28px;
+  background-color: #efefef;
+  border-radius: 20px;
+  color: #593e69;
+  font-size: 18px;
+  font-weight: 300;
+  border: transparent;
+  outline: transparent;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+.profile-fname-lname-edit div input::placeholder {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.profile-fname-lname-edit div p {
+  font-size: 18px;
+  font-weight: 300;
+  color: #000;
+}
+
+.profile-name-phone-edit {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 45px;
+}
+
+.profile-name-phone-edit div {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-name-phone-edit div input {
+  width: 400px;
+  height: 80px;
+  margin-top: 28px;
+  background-color: #efefef;
+  border-radius: 20px;
+  color: #593e69;
+  font-size: 18px;
+  font-weight: 300;
+  border: transparent;
+  outline: transparent;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+.profile-name-phone-edit div input::placeholder {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.profile-name-phone-edit div p {
+  font-size: 18px;
+  font-weight: 300;
+  color: #000;
+}
+
+.profile-comment-edit {
+  display: flex;
+  flex-direction: column;
+  margin-top: 45px;
+}
+
+.profile-comment-edit p {
+  font-size: 18px;
+  font-weight: 300;
+  color: #000;
+}
+
+.profile-comment-edit textarea {
+  width: 100%;
+  height: 199px;
+  background-color: #fff;
+  border-radius: 20px;
+  color: #593e69;
+  font-size: 18px;
+  font-weight: 300;
+  border: transparent;
+  outline: transparent;
+  padding-top: 15px;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-bottom: 15px;
+  margin-top: 24px;
+  resize: none;
+}
+
+.profile-discipline-edit {
+  display: flex;
+  flex-direction: column;
+  margin-top: 45px;
+  /* border: 1px solid; */
+}
+
+.profile-discipline-edit p {
+  font-size: 18px;
+  font-weight: 300;
+  color: #000;
+}
+
+.profile-discipline-edit select {
+  width: 400px;
+  height: 80px;
+  background-color: #fff;
+  font-size: 18px;
+  font-weight: 300;
+  color: #504f4f;
+  border-radius: 20px;
+  outline: transparent;
+  cursor: pointer;
+  padding-left: 35px;
+}
+
+.discipline-clear-btn {
+  width: 90px;
+  height: 80px;
+  background-color: #fff;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #593e69;
+  font-size: 55px;
+  cursor: pointer;
+}
+
+.profile-teach-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  margin-top: 30px;
+}
+
+.profile-teach-price div p {
+  font-size: 18px;
+  font-weight: 300;
+  color: #000;
+}
+
+.profile-teach-price div input {
+  width: 290px;
+  height: 80px;
+  border-radius: 20px;
+  background-color: #efefef;
+  margin-top: 28px;
+  color: #593e69;
+  font-size: 18px;
+  font-weight: 300;
+  border: transparent;
+  outline: transparent;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+.profile-education-edit-div {
+  width: 100%;
+  display: flex;
+  align-items: end;
+  gap: 19px;
+  margin-top: 44px;
+}
+
+.profile-education-edit-div div {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-education-edit-div div p {
+  font-size: 18px;
+  font-weight: 300;
+  color: #000;
+}
+
+.profile-education-edit-div div input {
+  width: 650px;
+  height: 80px;
+  background-color: #fff;
+  border-radius: 20px;
+  color: #593e69;
+  font-size: 18px;
+  font-weight: 300;
+  border: transparent;
+  outline: transparent;
+  padding-left: 35px;
+  padding-right: 35px;
+  margin-top: 24px;
+}
+
+.profile-education-edit-div div input:placeholder {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.education-clear-btn {
+  width: 90px;
+  height: 80px;
+  background-color: #fff;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #593e69;
+  font-size: 55px;
+  cursor: pointer;
+}
+
+.profile-admission-edit {
+  display: flex;
+  gap: 60px;
+  margin-top: 45px;
+}
+
+.profile-admission-edit div {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-admission-edit div input {
+  width: 400px;
+  height: 80px;
+  margin-top: 28px;
+  background-color: #efefef;
+  border-radius: 20px;
+  color: #593e69;
+  font-size: 18px;
+  font-weight: 300;
+  border: transparent;
+  outline: transparent;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+.profile-admission-edit div p {
+  font-size: 18px;
+  font-weight: 300;
+  color: #000;
+}
+
+.profile-certificates-edit {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-top: 45px;
+}
+
+.profile-certificates-edit p {
+  font-size: 18px;
+  font-weight: 300;
+  color: #000;
+}
+
+.profile-certificate-add {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+}
+
+.profile-certificate-add div {
+  width: 280px;
+  height: 200px;
+  border-radius: 20px;
+  background-color: #efefef;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.profile-certificate-add div input {
+  width: 280px;
+  height: 200px;
+  position: absolute;
+  opacity: 0;
+}
+
+.profile-certificate-add-icon {
+  font-size: 85px;
+  color: #bebebe;
+}
+
+.profile-certificate-add div p {
+  font-size: 18px;
+  font-weight: 300;
+  color: #bebebe;
+}
+
+.profile-training-center-edit {
+  display: flex;
+  flex-direction: column;
+  margin-top: 44px;
+}
+
+.profile-training-center-edit p {
+  font-size: 18px;
+  font-weight: 300;
+  color: #000;
+}
+
+.profile-training-center-edit div {
+  display: flex;
+  align-items: center;
+  margin-top: 24px;
+}
+
+.profile-training-center-edit div input {
+  width: 30px;
+  height: 30px;
+  background-color: #efefef;
+  border-radius: 10px;
+  outline: transparent;
+  border: transparent;
+}
+
+.profile-training-center-edit div p {
+  margin-left: 23px;
+}
+
+.profile-learn-center-name {
+  display: flex;
+  flex-direction: column;
+  margin-top: 34px;
+}
+
+.profile-learn-center-name p {
+  font-size: 18px;
+  font-weight: 300;
+  color: #000;
+}
+
+.profile-learn-center-name input {
+  width: 759px;
+  height: 80px;
+  background-color: #fff;
+  border-radius: 20px;
+  outline: transparent;
+  border: transparent;
+  color: #593e69;
+  font-size: 18px;
+  font-weight: 300;
+  padding-left: 35px;
+  padding-right: 35px;
+  margin-top: 24px;
+}
+
+.profile-save-button {
+  width: 230px;
+  height: 80px;
+  background-color: #fff;
+  border-radius: 45px;
+  color: #593e69;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  border: transparent;
+  margin-left: auto;
+  margin-top: 84px;
+}

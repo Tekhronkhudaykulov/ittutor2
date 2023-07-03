@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.my-calendar-main{
+    width: 100%;
+    height: 1100px;
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+}
+.my-calendar-container{
+    width: 1440px;
+    max-width: 1440px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.my-calendar-section{
+    width: 1000px;
+    height: max-content;
+    margin-top: 145px;
+    /* border: 1px solid aqua; */
+}
+.my-calendar-div{
+    width: 100%;
+    height: 650px;
+    background-color: #fff;
+    padding: 0 40px;
+    overflow: hidden;
+}
+.calendar-title{
+    font-size: 19px;
+    color: #504368;
+    font-weight: bold;
+    margin-top: 60px;
+}

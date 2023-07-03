@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.25529605.css",
+    "main.js": "/static/js/main.327d5d45.js",
+    "static/media/main.png": "/static/media/main.a3c46247a140c9cda502.png",
+    "static/media/new (2).png": "/static/media/new (2).58e69324e808aa479ad7.png",
+    "static/media/new (1).png": "/static/media/new (1).f1e63b2b7e4639495fbe.png",
+    "static/media/new (3).png": "/static/media/new (3).4791f8334ca933aea1b8.png",
+    "static/media/system-humo.svg": "/static/media/system-humo.0d04a72b95d028da8687ed1b93c7b765.svg",
+    "static/media/system-uz-card.svg": "/static/media/system-uz-card.19bc9fc2aa8a62ace7f9fffda8514dc5.svg",
+    "static/media/profile-avatar.png": "/static/media/profile-avatar.72d1cf6ba89c6a1a18d9.png",
+    "static/media/3d.png": "/static/media/3d.bc0f5355b1db4a6e641c.png",
+    "static/media/system-visa.svg": "/static/media/system-visa.f836e1385b0e85dc453c07df8db18e6b.svg",
+    "static/media/GothamPro-Italic.woff2": "/static/media/GothamPro-Italic.ae18b5c42c66178406a4.woff2",
+    "static/media/GothamPro-MediumItalic.woff2": "/static/media/GothamPro-MediumItalic.a28704cb8c8c457f8ebb.woff2",
+    "static/media/GothamPro-BlackItalic.woff2": "/static/media/GothamPro-BlackItalic.f7cd5ad30d62e8d9c198.woff2",
+    "static/media/GothamProNarrow-Medium.woff2": "/static/media/GothamProNarrow-Medium.8ce3ae348adab0198bf1.woff2",
+    "static/media/GothamPro-BoldItalic.woff2": "/static/media/GothamPro-BoldItalic.0e4f88c3af79d31653f1.woff2",
+    "static/media/GothamProNarrow-Bold.woff2": "/static/media/GothamProNarrow-Bold.ad5a2389cc765adfb176.woff2",
+    "static/media/GothamPro-Medium.woff2": "/static/media/GothamPro-Medium.738777ea88f45fff7fcc.woff2",
+    "static/media/GothamPro-LightItalic.woff2": "/static/media/GothamPro-LightItalic.c3a9e1360407d9edbed3.woff2",
+    "static/media/GothamPro.woff2": "/static/media/GothamPro.97a23059df8a758600fb.woff2",
+    "static/media/GothamPro-Bold.woff2": "/static/media/GothamPro-Bold.b9c5d1404c9e2ed632e3.woff2",
+    "static/media/GothamPro-Black.woff2": "/static/media/GothamPro-Black.7ed52d1381d16affbaa7.woff2",
+    "static/media/GothamPro-Light.woff2": "/static/media/GothamPro-Light.a2a52b37266bc749d00c.woff2",
+    "index.html": "/index.html",
+    "main.25529605.css.map": "/static/css/main.25529605.css.map",
+    "main.327d5d45.js.map": "/static/js/main.327d5d45.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.25529605.css",
+    "static/js/main.327d5d45.js"
+  ]
+}

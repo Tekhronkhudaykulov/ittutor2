@@ -1,0 +1,577 @@
+@media only screen and (max-width: 1280px) {
+    .saidbar {
+        display: none;
+    }
+
+    .all-sections {
+        width: 100%;
+        height: auto;
+    }
+
+    .item-saidbar ul li {
+        color: #5B406A;
+        font-size: 1rem;
+        width: 95%;
+        padding: 15px 0px 15px 15px;
+        border-radius: 0px 30px 30px 0px;
+        transition: .5s;
+        cursor: pointer;
+    }
+
+    .search-learnign-center {
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .title-all h3 {
+        font-size: 3rem;
+    }
+
+    .title-all span {
+        font-size: 1rem;
+    }
+
+    .search-input {
+        width: 90%;
+    }
+
+    .in-zoom-learning span {
+        font-size: .8rem;
+    }
+
+    .right-section-search {
+        height: 600px;
+    }
+
+    .pole {
+        height: 650px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+@media only screen and (max-width: 1004px) {
+
+    #navul {
+        display: none;
+    }
+
+    .massage-and-provite-room-container {
+        display: none;
+    }
+
+
+    .hamurger {
+        display: block;
+    }
+
+    .search-item {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 70px;
+    }
+
+    .search-learnign-center {
+        width: 100%;
+        height: auto;
+    }
+
+    .search-item {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .left-section-search {
+        width: 90%;
+        position: relative;
+    }
+
+
+    .search-input {
+        width: 100%;
+    }
+
+
+    .right-section-search {
+        width: 100%;
+        position: relative;
+        right: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .item-right-section {
+        width: 90%;
+        position: relative;
+    }
+
+    .right-model {
+        width: 100%;
+        position: absolute;
+    }
+
+    .pole {
+        width: 800%;
+        left: 0;
+        margin-left: -40px;
+    }
+
+    .girl-img-and-skill {
+        position: relative;
+    }
+
+    .girl-img-and-skill img {
+        width: 95%;
+        height: 100%;
+        bottom: -30px;
+        position: absolute;
+    }
+
+
+    .programmer-skill {
+        bottom: -30px;
+    }
+
+
+    .skill-container {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 47% 47%;
+        padding: 0px 20px;
+        gap: 40px;
+        justify-content: center;
+    }
+
+    .title-all-sections {
+        width: 100%;
+        padding: 0px 20px;
+    }
+
+    .title-all-sections h3 {
+        font-size: 2rem;
+    }
+
+    .title-all-sections span {
+        width: 100%;
+    }
+
+
+    .in-zoom-learning {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .in-zoom-learning span {
+        font-size: 1rem;
+    }
+
+
+
+
+
+
+
+
+
+    /* .OurServises */
+    .OurServises {
+        margin-top: 100px;
+        height: 900px;
+    }
+
+
+    .ourservises-main {
+        width: 100%;
+        height: auto;
+        display: grid;
+        margin-top: 20px;
+        grid-template-columns: 48% 48%;
+        gap: 30px;
+    }
+
+    .ourservises-title {
+        margin-bottom: 40px;
+    }
+
+    .ourservises-title h3 {
+        font-size: 2.2rem;
+    }
+
+    .ourservises-title span p {
+        font-size: .9rem;
+        margin-bottom: 30px;
+    }
+
+    .simple-search {
+        height: 220px;
+        position: relative;
+        background-color: #fff;
+        filter: drop-shadow(0px 24px 45.5px rgba(3, 11, 97, 0.08));
+    }
+
+    .title-search h3 {
+        font-size: 1rem;
+        margin-left: 40px;
+        color: #5B406A;
+        font-weight: 500;
+    }
+
+    .title-search span p {
+        font-size: .9rem;
+    }
+
+    .bottom-button-ourservises {
+        margin-top: 20px;
+    }
+
+
+    /* teacher responsive  */
+
+    .teacher {
+        width: 100%;
+    }
+
+    .item-teacher {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .title-teacher {
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+        gap: 20px;
+    }
+
+    #tech-title {
+        font-size: 1.5rem;
+    }
+
+    .top-teacher-list .item-teacher-list {
+        border-radius: 20px 20px 0px 0px;
+        background: #504368;
+        width: 90%;
+        height: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .item-teacher div {
+        width: 90%;
+    }
+
+    .right-teacher {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+
+    .right-teacher .bottom-teacher-information {
+        position: absolute;
+        bottom: -50px;
+        left: 0;
+        width: 40%;
+
+    }
+
+    .bottom-teacher-information-res {
+        display: none;
+    }
+
+
+    .teacher-sort-images {
+        width: 100%;
+        height: 100%;
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+        padding: 0px 10px;
+        align-items: center;
+        border-radius: 0px 0px 30px 30px;
+    }
+
+
+    .bottom-desc-information h3 {
+        font-size: 1rem;
+    }
+
+
+
+
+
+    .news {
+        width: 100%;
+    }
+
+    .item-news {
+        margin-top: 0px;
+    }
+
+    .news-title {
+        display: flex;
+        align-items: end;
+        height: auto;
+        margin-bottom: 30px;
+    }
+
+    .news-cards {
+        display: grid;
+        width: 100%;
+        justify-content: center;
+        grid-template-columns: 46% 46%;
+        gap: 45px;
+    }
+
+    .news-card {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+@media only screen and (max-width:560px) {
+
+
+
+
+    #brand img {
+        width: 130px;
+    }
+
+
+    .search-learnign-center {
+        width: 100%;
+        height: auto;
+    }
+
+    .search-item {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .left-section-search {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .title-search-section {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .search-input {
+        width: 100%;
+        height: 40px;
+    }
+
+    .in-zoom-learning span {
+        width: 100%;
+    }
+
+    .title-all {
+        width: 100%;
+
+    }
+
+
+    .title-all h3 {
+        font-size: 1.6rem;
+        text-align: left;
+        padding-left: 20px;
+    }
+
+    .title-all span {
+        text-align: left;
+        padding: 0px 20px;
+        font-size: .8rem;
+    }
+
+    .search-input input::placeholder {
+        font-size: .6rem;
+
+    }
+
+    .search-input {
+        width: 100%;
+    }
+
+
+    .in-zoom-learning {
+        width: 100%;
+        padding: 0px 10px;
+        position: relative;
+        margin-top: 30px;
+
+    }
+
+    .in-zoom-learning img {
+        width: auto;
+        width: 80px;
+        height: 20px;
+        object-fit: cover;
+        position: absolute;
+        right: 10px;
+    }
+
+    .in-zoom-learning span {
+        position: absolute;
+        width: 100%;
+        font-size: .8rem;
+    }
+
+
+    .right-section-search {
+        width: 140%;
+        margin: 0;
+        margin-top: 20px;
+        padding: 0;
+        right: 20px;
+        height: 50vh;
+        top: 0;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .item-right-section {
+        display: block;
+    }
+
+
+    .pole {
+        width: 200%;
+        height: 65vh;
+    }
+
+    .girl-img-and-skill {
+        width: 100%;
+        height: 100%;
+        right: 0;
+    }
+
+    .girl-img-and-skill img {
+        height: 90%;
+        top: 0;
+        position: absolute;
+        right: 150px;
+        width: 70%;
+    }
+
+    .programmer-skill {
+        bottom: -100px;
+        right: 0;
+    }
+
+
+    .user-and-contact {
+        position: absolute;
+        rotate: 0deg;
+        left: 300px;
+        height: 200px;
+        transform: rotate(10deg);
+        width: 20%;
+        /* border: 1px solid black; */
+    }
+
+    .user-and-contact i {
+        transform: rotate(0deg);
+    }
+
+    .user-and-contact span {
+        transform: rotate(0deg);
+
+    }
+
+
+
+
+
+
+    .OurServises {
+        margin-top: 250px;
+        display: flex;
+
+    }
+
+    .ourservises-main {
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 60px;
+        margin-top: 50px;
+    }
+
+    .skill-container {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 100%;
+        padding: 0px 20px;
+        gap: 40px;
+        justify-content: center;
+    }
+
+
+    .ourservises-title h3 {
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+    }
+
+    .ourservises-title span p {
+        font-size: .8rem;
+        margin-bottom: 30px;
+    }
+
+    .simple-search {
+        height: 220px;
+        position: relative;
+        background-color: #fff;
+        filter: drop-shadow(0px 24px 45.5px rgba(3, 11, 97, 0.08));
+    }
+
+    .title-search h3 {
+        font-size: 1rem;
+        margin-left: 40px;
+    }
+
+    .title-search span p {
+        font-size: .9rem;
+    }
+
+
+
+    /* our teacher  */
+
+
+
+}
